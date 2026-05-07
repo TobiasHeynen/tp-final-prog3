@@ -1,0 +1,19 @@
+{
+  "name": "turnos",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Gestión de turnos médicos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "author": "prog3",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "mysql2": "^3.22.3"
+  }
+}
